@@ -1,0 +1,8 @@
+changes.org
+
+I hand-drew the Qrayot Haifa area.
+And the Plain of Sharon Area. 
+-Brandon, March 2017
+
+I will keep contacting GIS experts to see who has the official shape files for these 
+regions.

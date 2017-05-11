@@ -1,0 +1,32 @@
+* README
+
+The original shapefile can be obtained from
+
+http://gadm.org/country
+
+
+** It has been modified
+
+in QGIS to add 3 regions:
+
+1. Golan
+2. Qrayot Haifa
+3. Sharon
+
+
+** sample code
+
+capitals <- rgdal::readOGR("./IsraelMap/ISR_adm1.shp", "ISR_adm1")
+il_dist <- fortify(capitals, region = "NAME_1")
+
+edu64 <- read.csv("./IsraelMap/ilstat.csv")
+
+pass <- ggplot() +
+  geom_map(data = edu64,
+     aes(map_id = District,
+           fill = PASS.PERCENT),
+            map = il_dist) +
+expand_limits(x = il_dist$long,
+              y = il_dist$lat)
+
+pass

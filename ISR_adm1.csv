@@ -1,0 +1,8 @@
+"OBJECTID","ID_0","ISO","NAME_0","ID_1","NAME_1","TYPE_1","ENGTYPE_1","NL_NAME_1","VARNAME_1"
+1,111,"ISR","Israel",1,"Golan","Mehoz","District",NA,NA
+2,111,"ISR","Israel",2,"HaDarom","Mehoz","District",NA,"Southern District"
+3,111,"ISR","Israel",3,"Haifa","Mehoz","District",NA,"Hefa"
+4,111,"ISR","Israel",4,"HaMerkaz","Mehoz","District",NA,"Central District"
+5,111,"ISR","Israel",5,"HaZafon","Mehoz","District",NA,"Northern"
+6,111,"ISR","Israel",6,"Jerusalem","Mehoz","District",NA,"Al-Quds|Yerushalayim"
+7,111,"ISR","Israel",7,"Tel Aviv","Mehoz","District",NA,NA
