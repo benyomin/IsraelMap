@@ -15,7 +15,9 @@ in QGIS to add 3 regions:
 
 
 ** sample code
+```R
 
+library(ggplot2)
 capitals <- rgdal::readOGR("./IsraelMap/ISR_adm1.shp", "ISR_adm1")
 il_dist <- fortify(capitals, region = "NAME_1")
 
@@ -30,3 +32,6 @@ expand_limits(x = il_dist$long,
               y = il_dist$lat)
 
 pass
+```
+
+[[dualColors.png]]
